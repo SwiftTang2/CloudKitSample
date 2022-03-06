@@ -1,11 +1,11 @@
-### 开启Cloud Kit
+### 开启Cloud Kit示例
 > 对创建项目时选择了`Host in CloudKit`的项目，按下述步骤开启Cloudkit订阅：
->  * 1. 在app id中启动iCloud 和 Push Notifications *
->  * 2. 在xcode 项目capabilities中启动 `CloutKit` 和 `remoto notifications` *
->  * 3. 在Cloud Kit中添加 ` Record Type` *
->  * 4. 在获取` remote notification`权限 *
->  * 5. 检查` CloudKit` 状态 *
->  * 6. 订阅CloutKit消息 *
+>  * + 在app id中启动iCloud 和 Push Notifications *
+>  * + 在xcode 项目capabilities中启动 `CloutKit` 和 `remoto notifications` *
+>  * + 在Cloud Kit中添加 ` Record Type` *
+>  * + 在获取` remote notification`权限 *
+>  * + 检查` CloudKit` 状态 *
+>  * + 订阅CloutKit消息 *
 
 #### 1. 启用iCloud
 当前使用的app id中，启用`Push notifications` 和icloud下的`include cloudkit support` 功能
